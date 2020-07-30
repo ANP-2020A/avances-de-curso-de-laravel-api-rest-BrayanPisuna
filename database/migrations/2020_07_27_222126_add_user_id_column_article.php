@@ -34,6 +34,5 @@ class AddUserIdColumnArticle extends Migration
             $table->dropForeign(['user_id']);
         });
 
-
     }
 }
