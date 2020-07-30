@@ -35,7 +35,8 @@ class ArticlesTableSeeder extends Seeder
                   Article::create([
                       'title' => $faker->sentence,
                       'body' => $faker->paragraph,
-                      ]);         }
+                      'category_id' => $faker->numberBetween(1, 3)
+                  ]);         }
 
     }
 
